@@ -30,6 +30,7 @@ def sum_times(t1, t2):
 
     return sum
 
+
 def valid_time(t):
     """check for the validity of the time object attributes:
         24 > hour > 0, 60 > minute > 0, 60 > second > 0 """
