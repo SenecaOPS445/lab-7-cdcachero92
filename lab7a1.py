@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
-# Student ID: [seneca_id]
+# Student ID: cdcachero
+
+
+
 from lab7a import *
+
 t1 = Time(8,0,0)
 t2 = Time(8,55,0)
 t3 = Time(9,50,0)
@@ -14,4 +18,3 @@ tsum3 = sum_times(t3,td)
 ft = format_time
 print(ft(t1),'+',ft(td),'-->',ft(tsum1))
 print(ft(t2),'+',ft(td),'-->',ft(tsum2))
-print(ft(t3),'+',ft(td),'-->',ft(tsum3))
